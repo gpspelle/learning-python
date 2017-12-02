@@ -1,0 +1,67 @@
+# Para intepretar o programa python em alguma versao especificada informe-a
+
+ex: python3 programa.py
+    python2 programa.py
+    python3.6 programa.py
+
+# Comando para imprimir print
+
+ex: print "Hello World!"
+    print("Hello World! I'm " + str(19) + " years old")
+
+# As variaveis nao tem tipo, portanto para criar uma variavel apenas de o nome
+# e pode atribuir um valor
+
+ex: variavelInt = 3
+    variavelFloat = 1.23
+    variavelBool = True
+
+# Os booleanos sao identificados como True e False
+# Python eh uma linguagem marcada pela identacao
+
+# Para definir uma funcao usa-se def
+
+ex: def spam():
+        eggs = 12
+        return eggs
+
+# Para comentarios de uma linha eh utilizado '#'
+# Para comentarios de multiplas linhas eh utilizado ' """ '
+# Alem das operacoes tradicionais, a operacao de exponenciacao eh a seguinte
+
+ex: matematica: 2^3 = 8
+    python:     2 ** 3 = 8
+
+# Para receber inputs do usuario usamos, a impressao da frase pode ser fora do
+# input com o comando print
+
+ex: name = input("Enter your name: ")
+    age = int(input("Enter your age: ")
+
+# O comando de iteracao for tem a seguinte sintaxe
+
+ex: a = [1, 2, 3]
+    for i in a:
+        print(i) 
+
+# O comando range(x, y) retorna uma lista de elementos de x (inclusive) ate
+# y (exclusive)
+
+ex: x = range(2, 4) tem o mesmo efeito de x = [2, 3]
+
+# Para gerar elementos aleatorios usando random
+
+ex: import random
+    l1 = random.sample(range(x), y)
+
+x: valor maximo, y: numero de elementos
+
+# Para obter o tamanho de um array
+
+ex: len(my_array)
+
+# Para deletar a ultima linha impressa em STDOUT
+
+ex: CURSOR_UP_ONE = '\x1b[1A'
+    ERASE_LINE = '\x1b[2K'
+    print(CURSOR_UP_ONE + ERASE_LINE + CURSOR_UP_ONE);
