@@ -10,20 +10,23 @@ class Perceptron:
         else:
             self.output = 0;
 
+# Initialize all perceptrons
 l11 = Perceptron(-2, -2, 3) 
 l21 = Perceptron(-2, -2, 3)
 l22 = Perceptron(-2, -2, 3)
 l23 = Perceptron(-2, -2, 3)
 l31 = Perceptron(-2, -2, 3)
 
+# Reading input
 x1, x2 = map(int, input("Entre com dois bits (0, 1): ").split())
-
+ 
 l11.calculate(x1, x2)
 l21.calculate(x1, l11.output)
 l22.calculate(l11.output, x2)
 l23.calculate(l11.output, l11.output)
 l31.calculate(l21.output, l22.output)
 
+# Printing output
 print("Sum: " + str(l31.output))
 print("Carry: " + str(l23.output))
 
