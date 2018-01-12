@@ -16,5 +16,5 @@ output = { 1, if w1x1 + w2x2 + bias > 0;
 
 ## Reference
 
-[PurlpleBooth](http://neuralnetworksanddeeplearning.com/chap1.html)
+[neuralnetworksanddeeplearning](http://neuralnetworksanddeeplearning.com/chap1.html)
 

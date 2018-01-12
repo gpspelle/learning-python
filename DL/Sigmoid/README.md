@@ -17,5 +17,5 @@ assume a inifity of values between 0 and 1.
 
 ## Reference
 
-[PurlpleBooth](http://neuralnetworksanddeeplearning.com/chap1.html)
+[neuralnetworksanddeeplearning](http://neuralnetworksanddeeplearning.com/chap1.html)
 
